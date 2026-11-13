@@ -1,0 +1,29 @@
+COLORTAGS — Pastas coloridas para Windows 10/11
+
+O QUE É
+Aplicativo Windows para aplicar ícones coloridos personalizados às pastas.
+As personalizações são feitas com desktop.ini, mecanismo nativo do Windows.
+
+COMO GERAR O EXECUTÁVEL
+1. Instale o .NET 8 SDK para Windows: https://dotnet.microsoft.com/download/dotnet/8.0
+2. Extraia esta pasta em seu computador Windows.
+3. Dê dois cliques em compilar.bat.
+4. O executável será criado em:
+   ColorTags\bin\Release\net8.0-windows\win-x64\publish\ColorTags.exe
+
+O publish é self-contained: o computador de destino não precisa ter o .NET instalado.
+
+COMO USAR
+1. Abra ColorTags.exe.
+2. Clique em "Escolher pasta...".
+3. Selecione uma das 12 cores.
+4. Para remover a personalização, clique em "Remover cor da pasta".
+5. Marque "Iniciar com o Windows" para iniciar automaticamente.
+6. Fechar a janela minimiza o aplicativo para a bandeja; use o menu da bandeja para sair.
+
+OBSERVAÇÕES
+- Esta versão gera ícones coloridos personalizados para o Explorador de Arquivos.
+- O Windows pode levar alguns instantes para atualizar miniaturas/ícones. Se necessário, pressione F5 na pasta.
+- Em pastas sincronizadas, de rede, protegidas pelo sistema ou gerenciadas por políticas corporativas, o Windows pode impedir a alteração.
+- Remover a cor apaga o desktop.ini da pasta e retira o atributo Somente leitura da pasta. Se a pasta já tinha esse atributo por outro motivo, confira suas propriedades depois.
+- O programa não altera nem apaga os arquivos que estão dentro da pasta.
